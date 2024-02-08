@@ -25,5 +25,14 @@ else:
     print(number, "is odd")
 
 # A program that checks a number is prime or not
-b = 7
-for i iter()
+b = 9
+
+if b > 1:
+# Check for factors
+ for i in range(2,b):
+ if(b % i) == 0:
+  print(b,"is not a prime number")
+
+ break
+else:
+print(b,"is a prime number")
