@@ -32,8 +32,8 @@ if b > 1:
     for i in range(2, b):
         if (b % i) == 0:
             print(b, "is not a prime number")
-        print(b, "is not a prime number")
+            print(i, "times", b//i, "is", b)
 
-        break
-else:
-    print(b, "is not a prime number")
+            break
+    else:
+        print(b, "is a prime number")
