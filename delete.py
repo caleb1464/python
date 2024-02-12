@@ -16,3 +16,5 @@ for row in cursor:
 
 print("Deleted successfully")
 conn.close()
+
+
