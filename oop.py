@@ -13,3 +13,4 @@ accountant = Person("Agnes", 31, "Female")
 doctor = Person("Timothy", 49, "Male")
 print(teacher.firstname, teacher.age, teacher.gender)
 print(accountant.firstname, accountant.age, accountant.gender)
+
